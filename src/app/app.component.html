@@ -4,7 +4,7 @@
        Indice : Il faut utiliser une directive sur le tag <a>
     -->
     <a routerLink="/">
-      <span>{{title}}</span> <!-- TODO 2 : Creer un pipe qui permet de mettre le premier mot en majuscule, le reste en minuscule et de remplacer les underscores par des espaces -->
+      <span>{{ title | formatTitle }}</span> <!-- TODO 2 : Creer un pipe qui permet de mettre le premier mot en majuscule, le reste en minuscule et de remplacer les underscores par des espaces -->
     </a>
   </h1>
   <nav>
